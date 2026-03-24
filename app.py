@@ -18,7 +18,7 @@ st.markdown("---")
 # ---------------- INPUT ----------------
 st.subheader("🔮 Enter Customer Details")
 
-tenure = st.slider("Tenure (months)", 0, 72)
+tenure = st.slider("Tenure (months)", 1, 72, 12)
 monthly = st.number_input("Monthly Charges", value=50.0)
 
 # ✅ AUTO CALCULATE TOTAL CHARGES
